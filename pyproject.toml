@@ -1,0 +1,8 @@
+# Configuration du projet. Aucune dépendance d'exécution : l'analyseur de
+# capture utilise uniquement la bibliothèque standard de Python.
+# pytest ne sert qu'aux tests.
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q --strict-markers"

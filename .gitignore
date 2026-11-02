@@ -1,0 +1,18 @@
+# Contexte interne du projet : ne jamais publier
+CONTEXT.md
+
+# Captures réelles : jamais commitées (adresses MAC, trafic, volume)
+# Seule la capture d'exemple, synthétique, est publiée.
+captures/*.pcap
+!captures/example.pcap
+captures/*.pcapng
+
+# Journaux de capture
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
